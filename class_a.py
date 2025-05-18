@@ -13,7 +13,7 @@ from watchdog.events import FileSystemEventHandler
 from pathlib import Path
 from sliding_tiles_v1_v3 import main  # main(image_path)
 
-WATCH_DIR = "C:/Users/silag/OneDrive/Belgeler/4.Sinif/Final_Project_PCB/belgeler/data_exchange/captured_frames1_after_stop"
+WATCH_DIR = "C:/Users/Asus/Desktop/detEEct/class_a/class_a/captured_frames1"
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp"}
 
 # Create a thread-safe queue for image paths
